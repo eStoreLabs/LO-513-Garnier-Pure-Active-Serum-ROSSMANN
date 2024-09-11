@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap');
 html,
 body {
   margin: 0;
@@ -10,7 +10,7 @@ body {
 }
 
 #es-garnier.es-garnier {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -52,7 +52,7 @@ body {
 #es-garnier.es-garnier h3,
 #es-garnier.es-garnier h4,
 #es-garnier.es-garnier h5 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #111;
 }
 #es-garnier.es-garnier img {
@@ -63,7 +63,7 @@ body {
   margin-bottom: 50px;
 }
 #es-garnier.es-garnier .es-kv__right {
-  background-image: url("../img/kv_right.png");
+  background-image: url('https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542497930/img/kv_right.png');
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 30px;
@@ -71,7 +71,7 @@ body {
   aspect-ratio: 491/330;
 }
 #es-garnier.es-garnier .es-kv__left {
-  background-image: url("../img/kv_left.png");
+  background-image: url('https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542497930/img/kv_left.png');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -120,8 +120,9 @@ body {
 }
 #es-garnier.es-garnier .es-kv__text--bracket :after {
   position: absolute;
-  content: "";
-  background: url("../img/brackets.png") no-repeat;
+  content: '';
+  background: url('https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542497930/img/brackets.png')
+    no-repeat;
   display: block;
   top: 0;
   right: 0;
@@ -236,7 +237,7 @@ body {
   z-index: 2;
 }
 #es-garnier.es-garnier .es-effectiveness__left:before {
-  content: "";
+  content: '';
   width: 208px;
   height: 208px;
   background-color: #f1f1f1;
@@ -251,7 +252,7 @@ body {
   z-index: 1;
 }
 #es-garnier.es-garnier .es-effectiveness__right:before {
-  content: "";
+  content: '';
   width: 265px;
   height: 265px;
   background-color: #9499a0;
@@ -300,10 +301,10 @@ body {
   z-index: 1;
 }
 #es-garnier.es-garnier .es-effectiveness__card-wrapper:after {
-  content: "";
+  content: '';
   width: 208px;
   height: 208px;
-  background-image: url("../img/bg_round.png");
+  background-image: url('https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542497930/img/bg_round.png');
   background-size: contain;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -436,8 +437,9 @@ body {
   }
   #es-garnier.es-garnier .es-active-ingredients__item-title--black::before {
     position: absolute;
-    content: "";
-    background: url("../img/active-bracket-black-before.png") no-repeat;
+    content: '';
+    background: url('https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542497930/img/active-bracket-black-before.png')
+      no-repeat;
     display: block;
     top: -15px;
     left: -20px;
@@ -448,8 +450,9 @@ body {
   }
   #es-garnier.es-garnier .es-active-ingredients__item-title--black::after {
     position: absolute;
-    content: "";
-    background: url("../img/active-bracket-black-after.png") no-repeat;
+    content: '';
+    background: url('https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542497930/img/active-bracket-black-after.png')
+      no-repeat;
     display: block;
     top: -15px;
     right: -45%;
@@ -464,8 +467,9 @@ body {
   }
   #es-garnier.es-garnier .es-active-ingredients__item-title--white::before {
     position: absolute;
-    content: "";
-    background: url("../img/active-bracket-white-before.png") no-repeat;
+    content: '';
+    background: url('https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542497930/img/active-bracket-white-before.png')
+      no-repeat;
     display: block;
     top: -6px;
     right: 49%;
@@ -476,8 +480,9 @@ body {
   }
   #es-garnier.es-garnier .es-active-ingredients__item-title--white::after {
     position: absolute;
-    content: "";
-    background: url("../img/active-bracket-white-after.png") no-repeat;
+    content: '';
+    background: url('https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542497930/img/active-bracket-white-after.png')
+      no-repeat;
     display: block;
     top: -6px;
     right: -14%;
@@ -524,7 +529,7 @@ body {
   margin-top: 48px;
 }
 #es-garnier.es-garnier .es-opinion__container {
-  background-image: url("../img/dermatolog-bg.png");
+  background-image: url('https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542497930/img/dermatolog-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -545,7 +550,7 @@ body {
   margin-left: -100%;
   align-content: end;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   max-width: 200%;
 }
 @media (min-width: 650px) {
@@ -763,7 +768,8 @@ body {
 }
 @media (min-width: 860px) {
   #es-garnier.es-garnier .es-cross__steps-container {
-    background: url("../img/steps-bg.png") no-repeat center;
+    background: url('https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542497930/img/steps-bg.png')
+      no-repeat center;
     background-size: cover;
     min-height: 600px;
   }
@@ -789,9 +795,10 @@ body {
     align-items: flex-start;
   }
   #es-garnier.es-garnier .es-cross__steps-item--1::after {
-    content: "";
+    content: '';
     position: absolute;
-    background: url("../img/steps-line.png") no-repeat center;
+    background: url('https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542497930/img/steps-line.png')
+      no-repeat center;
     width: 260px;
     height: 2px;
     bottom: 0;
@@ -801,9 +808,10 @@ body {
     order: 3;
   }
   #es-garnier.es-garnier .es-cross__steps-item--2::after {
-    content: "";
+    content: '';
     position: absolute;
-    background: url("../img/steps-line.png") no-repeat center;
+    background: url('https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542497930/img/steps-line.png')
+      no-repeat center;
     width: 500px;
     height: 2px;
     bottom: 0;
@@ -813,9 +821,10 @@ body {
     order: 4;
   }
   #es-garnier.es-garnier .es-cross__steps-item--3::after {
-    content: "";
+    content: '';
     position: absolute;
-    background: url("../img/steps-line.png") no-repeat center;
+    background: url('https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542497930/img/steps-line.png')
+      no-repeat center;
     width: 330px;
     height: 2px;
     bottom: 0;
@@ -825,9 +834,10 @@ body {
     order: 2;
   }
   #es-garnier.es-garnier .es-cross__steps-item--4::after {
-    content: "";
+    content: '';
     position: absolute;
-    background: url("../img/steps-line.png") no-repeat center;
+    background: url('https://www.ros.net.pl/Portals/0/rich-content/garnier/3600542497930/img/steps-line.png')
+      no-repeat center;
     width: 275px;
     height: 2px;
     bottom: 0;
@@ -895,7 +905,13 @@ body {
   background-color: #fff;
 }
 #es-garnier.es-garnier .es-routine__step-compare {
-  background: linear-gradient(to right, #9499a0 0%, #9499a0 50.1%, #fee955 50%, #fee955 100%);
+  background: linear-gradient(
+    to right,
+    #9499a0 0%,
+    #9499a0 50.1%,
+    #fee955 50%,
+    #fee955 100%
+  );
 }
 #es-garnier.es-garnier .es-routine__step-group {
   display: flex;
@@ -933,7 +949,13 @@ body {
     flex-direction: row;
     justify-content: space-between;
     gap: 30px;
-    background: linear-gradient(to right, #9499a0 0%, #9499a0 50.1%, #fee955 50%, #fee955 100%);
+    background: linear-gradient(
+      to right,
+      #9499a0 0%,
+      #9499a0 50.1%,
+      #fee955 50%,
+      #fee955 100%
+    );
   }
   #es-garnier.es-garnier .es-routine__link {
     margin-left: auto;
@@ -981,4 +1003,4 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
